@@ -18,7 +18,7 @@ header, #year, #plan{
 /* hero */
 
 #hero {
-    background-image: url("/media/banner/banner1.png");
+    background-image: url("media/banner/banner1.png");
     background-size: cover;
     height: 100vh;
 }
@@ -144,7 +144,7 @@ header, #year, #plan{
     content: "";
     width: 20px;         
     height: 20px;        
-    background-image: url('/media/icons/check.svg');
+    background-image: url('media/icons/check.svg');
 } 
 
 
@@ -189,7 +189,7 @@ header, #year, #plan{
 /* card */
 
 .plan-container .card{
-    background-image: url(/media/watch.png);
+    background-image: url(media/watch.png);
     background-repeat: no-repeat;
     position: relative;
 }
