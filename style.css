@@ -11,14 +11,14 @@
     font-style: normal;
 }
 
-#hero, #year{
+header, #year, #plan{
     margin-bottom: 100px;
 }
 
 /* hero */
 
 #hero {
-    background-image: url("/PH/Project-2/media/banner/banner1.png");
+    background-image: url("/media/banner/banner1.png");
     background-size: cover;
     height: 100vh;
 }
@@ -29,7 +29,7 @@
 
 .btn {
     padding: 17px 40px;
-    border-radius: 50px;
+    border-radius: 8px;
     cursor: pointer;
     border: 0;
     background-color: #FFC600;
@@ -44,7 +44,7 @@
     letter-spacing: 3px;
     background-color: #e7e422;
     color: #444343;
-    box-shadow: rgb(217, 236, 171) 0px 7px 29px 0px;
+    box-shadow: rgb(217, 236, 171);
 }
 
 .container {
@@ -144,5 +144,123 @@
     content: "";
     width: 20px;         
     height: 20px;        
-    background-image: url('/PH/Project-2/media/icons/check.svg');
+    background-image: url('/media/icons/check.svg');
 } 
+
+
+/* plan */
+
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.plan-container .learn{
+    display: flex;
+    gap: 85px;
+    margin-top: 55px;
+    margin-bottom: 130px;
+}
+
+.plan-container .learn .box{
+    text-align: center;
+}
+
+.plan-container .learn .box h3{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-container .learn h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plan-container .learn p{
+    font-size: 25px;
+    color: #444343;
+}
+
+/* card */
+
+.plan-container .card{
+    background-image: url(/media/watch.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.plan-container .card .card-text{
+    position: absolute;
+    top:70px;
+    left:100px;
+    width: 500px;
+    color: white;
+}
+.plan-container .card .card-text h2{
+    margin-bottom:10px ;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .footer-text{
+    max-width: 450px;
+}
+.footer-container .footer-text h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.footer-container .footer-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-top:16px;
+}
+
+.footer-container .footer-text .contact{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.footer-container .footer-text .social{
+    display: flex;
+    gap: 18px;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container .footer-form h2{
+    font-size: 25px;
+    color: white;
+}
+
+.footer-container .footer-form input{
+    padding: 20px 160px 20px 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.footer-container .footer-form input::placeholder {
+    color: #ccc; 
+}
